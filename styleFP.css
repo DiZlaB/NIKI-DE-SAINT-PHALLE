@@ -1,0 +1,139 @@
+body {
+  background-color: rgb(250, 163, 185);
+  margin: 50px, 50px auto;
+  width: 600px;
+}
+
+.container {
+  display: grid;
+  margin: 50px auto;
+  grid-template-columns: repeat(6fr);
+}
+
+header {
+  display: grid;
+  padding: 15px;
+  margin: 30px;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7 {
+  display: grid;
+  background-color: rgba(255, 240, 245, 0.4);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.text1 {
+  grid-template-columns: 300px 600px;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+.text2 {
+  display: grid;
+  grid-template-columns: 300px 600px;
+  padding-right: 15px;
+  justify-content: space-around;
+  width: 1000px;
+  height: 800px;
+}
+
+.text4 {
+  grid-template-columns: 300px 600px;
+  padding-right: 15px;
+  justify-content: space-around;
+  justify-items: left;
+}
+
+.second-phase {
+  display: grid;
+  grid-template-rows: 200px;
+  align-items: end;
+  padding: 15px;
+}
+
+.woman-identity,
+.nanas {
+  padding: 15px;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.life1 {
+  display: grid;
+  transform: translateY(20px);
+}
+
+.life2 {
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+  transform: scale(0.8) translateY(-93px);
+}
+
+.art1 {
+  display: grid;
+  padding: 25px;
+  transform: scale(2) translateY(15px);
+  justify-items: center;
+  align-items: top;
+
+}
+
+.art2 {
+
+  justify-items: center;
+  transform: scale(0.8) translateY(-55px);
+}
+
+.art3 {
+  transform: scale(1.5) translateY(-29px) translateX(177px) translateZ(56px);
+}
+
+.art4 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  justify-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+button {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  padding: 15px;
+  background-color: rgba(255, 240, 245, 0.4);
+  border: none;
+  border-radius: 10px;
+
+}
+
+button:active {
+  transform: translateY(3px)
+}
+
+footer {
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+.text7 {
+  text-align: center;
+}
